@@ -1,8 +1,13 @@
 import './App.css';
 
 function App() {
+const name= "Ivan";
   return (
-   <div className="App"></div> 
+   <div className="App">
+<h1>{name}</h1>
+
+
+   </div> 
   )
 }
 
