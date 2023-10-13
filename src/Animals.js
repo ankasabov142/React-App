@@ -1,15 +1,12 @@
-const animals = [
-  { name: "Lion", isMammal: true },
-  { name: "Snake", isMammal: false },
-  { name: "Dolphin", isMammal: true },
-  { name: "Crocodile", isMammal: false },
-  { name: "Elephant", isMammal: true },
-  { name: "Shark", isMammal: false },
-  { name: "Gorilla", isMammal: true },
-  { name: "Parrot", isMammal: false },
-  { name: "Kangaroo", isMammal: true },
-  { name: "Tiger", isMammal: true },
-  { name: "Penguin", isMammal: false },
-  { name: "Hippopotamus", isMammal: true },
-];
+import React from 'react'
 
+export default function Animals({animals}) {
+  return (
+animals.map(({name,isMammal}) => {
+    let bool= ""
+    if(isMammal==true?bool="true":bool="false")
+    return <h1> The {name} is mammal-{bool}</h1>
+})
+
+  )
+}

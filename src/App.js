@@ -1,14 +1,28 @@
-import './App.css';
+import "./App.css";
+import Animals from "./Animals";
 
 function App() {
-const name= "Ivan";
+  const animals = [
+    { name: "Lion", isMammal: true },
+    { name: "Snake", isMammal: false },
+    { name: "Dolphin", isMammal: true },
+    { name: "Crocodile", isMammal: false },
+    { name: "Elephant", isMammal: true },
+    { name: "Shark", isMammal: false },
+    { name: "Gorilla", isMammal: true },
+    { name: "Parrot", isMammal: false },
+    { name: "Kangaroo", isMammal: true },
+    { name: "Tiger", isMammal: true },
+    { name: "Penguin", isMammal: false },
+    { name: "Hippopotamus", isMammal: true }
+  ];
+
   return (
-   <div className="App">
-<h1>{name}</h1>
-
-
-   </div> 
-  )
+    <>
+      <Animals animals={animals} />
+      
+    </>
+  );
 }
 
 export default App;
