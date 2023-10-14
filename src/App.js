@@ -1,4 +1,5 @@
 import "./App.css";
+import "./Animals.css";
 import Animals from "./Animals";
 
 function App() {
@@ -19,7 +20,9 @@ function App() {
 
   return (
     <>
-      <Animals animals={animals} />
+    <div className="animalContainer">
+    <Animals animals={animals} />
+    </div>
       
     </>
   );
