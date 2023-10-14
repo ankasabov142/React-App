@@ -6,10 +6,10 @@ export default function Animals({ animals }) {
     if (isMammal == true ? (bool = "true") : (bool = "false"))
       return (
     <div className="animalDiv">
-      <h1 className="animalHeading">
+      <h2 className="animalHeading">
           {" "}
           The {name} is mammal-{bool}
-        </h1>
+        </h2>
     </div>
         
       );

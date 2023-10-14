@@ -1,22 +1,59 @@
-.animalDiv{
-width: fit-content;
-height: 80px;
-margin-bottom: 20px;
-border: 4px solid gray;
-border-radius: 40%;
+.animalDiv {
+  width: fit-content;
+  height: 80px;
+  border-radius: 20%;
 }
 
-.animalContainer{
-    display: flex;
-    flex-direction: column;
+.animalContainer {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgb(34,193,195);
-  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); 
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
 }
-.animalHeading{
+.animalHeading {
+  color: white;
+  font-family: "Bodoni Moda", serif;
+  font-family: "Caprasimo", serif;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Kanit", sans-serif;
+  font-family: "Lilita One", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-family: "REM", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 800;
+  font-size: 30px;
 }
-body{
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); 
+body {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+h1 {
+  font-family: "Bodoni Moda", serif;
+  font-family: "Caprasimo", serif;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Kanit", sans-serif;
+  font-family: "Lilita One", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-family: "REM", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  color: white;
+  text-decoration: underline;
+  font-weight: 800;
+  font-size: 50px;
 }

@@ -21,6 +21,8 @@ function App() {
   return (
     <>
     <div className="animalContainer">
+    <h1>The animal Kingdom</h1>
+      
     <Animals animals={animals} />
     </div>
       
