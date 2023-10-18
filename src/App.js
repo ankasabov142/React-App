@@ -1,7 +1,9 @@
 import "./App.css";
 import "./Animals.css";
 import Animals from "./Animals";
-
+import { useState } from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Routes } from "react-router-dom";
 function App() {
   const animals = [
     { name: "Lion", isMammal: true },
@@ -15,17 +17,16 @@ function App() {
     { name: "Kangaroo", isMammal: true },
     { name: "Tiger", isMammal: true },
     { name: "Penguin", isMammal: false },
-    { name: "Hippopotamus", isMammal: true }
+    { name: "Hippopotamus", isMammal: true },
   ];
 
   return (
     <>
-    <div className="animalContainer">
-    <h1>The animal Kingdom</h1>
-      
-    <Animals animals={animals} />
-    </div>
-      
+      <div className="animalContainer">
+        <h1>The animal Kingdom</h1>
+
+        <Animals animals={animals} />
+      </div>
     </>
   );
 }
